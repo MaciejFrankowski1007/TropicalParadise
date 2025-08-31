@@ -20,7 +20,6 @@ body {
 	font-size: 1.6rem;
 }
 
-
 //NAV
 
 .burger-btn {
@@ -142,7 +141,6 @@ body {
 	background-color: $dark;
 }
 
-
 //HEADER
 .header {
 	position: relative;
@@ -258,15 +256,15 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $light-blue-gradient, url("../img/card1.jpg");
+				background-image: url("../img/card1.jpg");
 			}
 
 			&--second {
-				background-image: $blue-gradient, url("../img/card2.jpg");
+				background-image: url("../img/card2.jpg");
 			}
 
 			&--third {
-				background-image: $purple-gradient, url("../img/card3.jpg");
+				background-image: url("../img/card3.jpg");
 			}
 
 			&-title {
